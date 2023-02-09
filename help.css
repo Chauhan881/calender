@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.item{
+    margin-top: 30px;
+    padding: 20px 15px;
+    color: black;
+    border: solid 1px white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,45px);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "header header"
+    
+}
+.item-grid1{ */
+    grid-area: header;
+    padding-right: 50%;
+}
+.inside{
+    background-color: #ccc;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(7,50px);
+    margin-top: 20px;
+    padding: 20px 25px;
+}
